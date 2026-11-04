@@ -2,7 +2,7 @@
 
 Сайт приложений Андрея Коренкова.
 
-- `/rsya/` — РСЯ.Сводка / YAN Summary для iPhone
+- `/rsya/` — РСЯ Пульс / YAN Pulse для iPhone
 - `/rsya/privacy/` — политика конфиденциальности (ссылка для App Store)
 - `/rsya/support/` — поддержка (ссылка для App Store)
 
