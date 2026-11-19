@@ -26,8 +26,8 @@
 <section class="hero">
   <h1 data-lang="ru">Политика конфиденциальности</h1>
   <h1 data-lang="en">Privacy Policy</h1>
-  <p data-lang="ru">Приложение «РСЯ Пульс» для iOS · обновлено 16 ноября 2026 г.</p>
-  <p data-lang="en">“YAN Pulse” iOS app · last updated November 16, 2026</p>
+  <p data-lang="ru">Приложение «РСЯ Пульс» для iOS и Android · обновлено 19 ноября 2026 г.</p>
+  <p data-lang="en">“YAN Pulse” app for iOS and Android · last updated November 19, 2026</p>
 </section>
 
 <div data-lang="ru">
@@ -43,19 +43,21 @@
 <div class="card">
   <h2>Какие данные используются</h2>
   <h3>Токен доступа Яндекса</h3>
-  <p>Когда вы подключаете свой кабинет РСЯ, Яндекс выдаёт приложению токен OAuth с доступом на чтение статистики. Токен хранится в защищённом хранилище iOS (Keychain) на вашем устройстве и отправляется только на серверы Яндекса (oauth.yandex.ru, login.yandex.ru, partner.yandex.ru) для получения статистики.</p>
+  <p>Когда вы подключаете свой кабинет РСЯ, Яндекс выдаёт приложению токен OAuth с доступом на чтение статистики. Токен хранится в защищённом хранилище устройства (Keychain на iOS, зашифрованное хранилище с ключом в Android Keystore на Android) и отправляется только на серверы Яндекса (oauth.yandex.ru, login.yandex.ru, partner.yandex.ru) для получения статистики.</p>
   <h3>Данные профиля</h3>
   <p>Логин, имя, адрес электронной почты и аватар загружаются из Яндекса, чтобы показать, какой кабинет подключён. Они хранятся только на устройстве.</p>
   <h3>Статистика Рекламной сети</h3>
   <p>Доходы, показы, клики и другие показатели запрашиваются у Яндекса при открытии экранов и только отображаются. Приложение не сохраняет их на сервере и никому не передаёт.</p>
+  <h3>Уведомления «Итоги дня»</h3>
+  <p>Если вы включите ежедневное уведомление, приложение в выбранное время само загружает с устройства итоги вчерашнего дня из Яндекса и показывает локальное уведомление. Push-сервер не используется, токен и цифры никуда, кроме Яндекса, не отправляются. Уведомления выключаются в настройках приложения или системы.</p>
   <h3>Настройки</h3>
-  <p>Язык, тема и набор метрик хранятся на устройстве.</p>
+  <p>Язык, тема, набор метрик и время уведомления хранятся на устройстве.</p>
 </div>
 <div class="card">
   <h2>Реклама</h2>
   <p>Внизу экрана показывается баннер Рекламной сети Яндекса. Для этого в приложение встроен Yandex Mobile Ads SDK (вместе с ним — AppMetrica SDK). Они могут получать:</p>
   <ul>
-    <li>рекламный идентификатор устройства (IDFA) — только если вы разрешите это в системном запросе «Разрешить отслеживание?»; изменить решение можно в «Настройках iOS → Конфиденциальность → Отслеживание»;</li>
+    <li>рекламный идентификатор устройства (IDFA) — только если вы разрешите это в системном запросе «Разрешить отслеживание?»; изменить решение можно в «Настройках iOS → Конфиденциальность → Отслеживание»; на Android — рекламный идентификатор Google/Huawei, его можно сбросить или отключить в настройках Android;</li>
     <li>технические данные: модель устройства, версию iOS, язык, сведения о показах и нажатиях на рекламу, отчёты о сбоях SDK.</li>
   </ul>
   <p>Определение местоположения для рекламы в приложении отключено. Ваша статистика РСЯ, ключ доступа и данные профиля в рекламный SDK не передаются. Обработка этих данных регулируется <a href="https://yandex.ru/legal/confidential/" rel="noopener">Политикой конфиденциальности Яндекса</a> и <a href="https://yandex.ru/legal/mobileads_sdk_agreement/" rel="noopener">условиями Yandex Mobile Ads SDK</a>.</p>
@@ -105,19 +107,21 @@
 <div class="card">
   <h2>Data the app uses</h2>
   <h3>Yandex access token</h3>
-  <p>When you connect your YAN data, Yandex issues the app an OAuth token with read-only access to statistics. The token is kept in the iOS secure storage (Keychain) on your device and is sent only to Yandex servers (oauth.yandex.ru, login.yandex.ru, partner.yandex.ru) to fetch statistics.</p>
+  <p>When you connect your YAN data, Yandex issues the app an OAuth token with read-only access to statistics. The token is kept in the device secure storage (Keychain on iOS, encrypted storage backed by Android Keystore on Android) and is sent only to Yandex servers (oauth.yandex.ru, login.yandex.ru, partner.yandex.ru) to fetch statistics.</p>
   <h3>Profile data</h3>
   <p>Your login, name, email address and avatar are loaded from Yandex to show which source is connected. They are stored on the device only.</p>
   <h3>Advertising Network statistics</h3>
   <p>Revenue, impressions, clicks and other figures are requested from Yandex when you open a screen and are only displayed. The app does not store them on any server or share them with anyone.</p>
+  <h3>“Daily results” notifications</h3>
+  <p>If you turn on the daily notification, at the chosen time the app itself loads yesterday's results from Yandex on your device and shows a local notification. No push server is used; the token and figures are not sent anywhere except Yandex. You can turn notifications off in the app or system settings.</p>
   <h3>Settings</h3>
-  <p>Language, theme and selected metrics are stored on the device.</p>
+  <p>Language, theme, selected metrics and the notification time are stored on the device.</p>
 </div>
 <div class="card">
   <h2>Advertising</h2>
   <p>A Yandex Advertising Network banner is shown at the bottom of the screen. For this the app includes the Yandex Mobile Ads SDK (together with the AppMetrica SDK). They may receive:</p>
   <ul>
-    <li>the device advertising identifier (IDFA) — only if you allow it in the system “Allow tracking?” prompt; you can change this in iOS Settings → Privacy → Tracking;</li>
+    <li>the device advertising identifier (IDFA) — only if you allow it in the system “Allow tracking?” prompt; you can change this in iOS Settings → Privacy → Tracking; on Android — the Google/Huawei advertising ID, which you can reset or turn off in Android settings;</li>
     <li>technical data: device model, iOS version, language, ad impressions and taps, SDK crash reports.</li>
   </ul>
   <p>Location for ads is disabled in the app. Your YAN statistics, access key and profile data are never passed to the ads SDK. This data is governed by the <a href="https://yandex.com/legal/confidential/" rel="noopener">Yandex Privacy Policy</a> and the <a href="https://yandex.com/legal/mobileads_sdk_agreement/" rel="noopener">Yandex Mobile Ads SDK terms</a>.</p>
